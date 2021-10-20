@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gbk">
+    <meta name="robots" content="all">
+    <meta name="Copyright" content="Tencent">
+    <meta name="author" content="Tencent-CP">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="keywords" content="腾讯,腾讯游戏,王者荣耀,周年庆,王者荣耀活动,送限定皮肤,王者荣耀福利">
+    <meta name="description" content="参与王者荣耀“周年福利·送限定皮肤”活动，累计签到即可开启永久皮肤自选宝箱：全新86版西游记正版授权皮肤：猪悟能；周年庆皮肤：游园惊梦、遇见飞天、梁祝、李小龙，任选其一！">
+    <title>周年福利·送限定皮肤-王者荣耀-腾讯游戏</title>
+    <!-- 页面设计：深圳欣米 | 页面制作：深圳欣米 | 创建：2021-08-24 -->
+    <script>
+        //屏幕适应
+        (function (win, doc) {if (!win.addEventListener) return;function setFont() {var html = document.documentElement;var k = 750;html.style.fontSize = html.clientWidth / k * 100 + "px";}setFont();setTimeout(function () {setFont();}, 300);doc.addEventListener('DOMContentLoaded', setFont, false);win.addEventListener('resize', setFont, false);win.addEventListener('load', setFont, false);})(window, document);
+    </script>
+    <link rel="stylesheet" href="./comm.css" charset="utf-8">
+</head>
+<style>
+    .popComm{padding-top:1.22rem}
+    .popComm .title{margin-bottom:.69rem}
+</style>
+<body>
+<div class="g-wrap">
+    <div class="slogan"></div>
+    <div class="login" id="ams_loginbar">
+        <div id="unlogin">
+            <a id="ptLoginBtn" onclick="qqLogin()" href="javascript:OUT.login.qq();" style="cursor: pointer;">[QQ登录]</a>
+            <a id="wxloginBtn" onclick="wxLogin()" href="javascript:void(0);">[微信登录]</a>
+        </div>
+    </div>
+
+    <div class="key">
+        <img src="//game.gtimg.cn/images/yxzj/act/6531/a20210826skinzbj/key.png" alt="">
+        <div class="tag skinboxkey">限定宝箱钥匙</div>
+        <div class="tag status"></div>
+    </div>
+
+    <div>你的活动链接：<input oninput="changeActUrl()" /></div>
+</div>
+
+<script src="./api.js"></script>
+<script src="//ossweb-img.qq.com/images/js/zepto/zepto.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+<script src="//ossweb-img.qq.com/images/js/eas/eas.js"></script>
+<script src="./tcss.js"></script>
+<script src="./ulink.2.0.7.js?0"></script>
+<script type="text/javascript" src="./screenshot.js" actId="6531" actType="1" channel="1"></script>
+<script src="./work.js"></script>
+<script>
+    function changeActUrl(){
+        window.yourActUrl = window.event.target.value;
+    }
+    function qqLogin() {
+        LoginManager.loginByWxAndQQ();
+    }
+    function wxLogin() {
+        LoginManager.loginByWx();
+    }
+</script>
+</body>
+</html>

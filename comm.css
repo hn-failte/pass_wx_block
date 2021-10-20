@@ -1,0 +1,67 @@
+.btn-confirm,.btn-ljlq,.btn-modify,.btn-qwyx,.btn-togame,.dia-close,.dialog,.dialog .item select,.dot,.guest-title,.host-title,.key-box,.select-bg,.slogan,.sprite-img{background-image:url(//game.gtimg.cn/images/yxzj/act/6531/a20210826skinzbj/sprite-img.png?2021_10_9_16_45_48);background-size:9.22rem 8.52rem;background-repeat:no-repeat}
+.btn-confirm{background-position:-7.28rem -2.76rem;width:1.68rem;height:.63rem}
+.btn-ljlq{background-position:.02rem -7.82rem;width:3rem;height:.72rem}
+.btn-modify{background-position:-7.28rem -1.46rem;width:1.68rem;height:.64rem}
+.btn-qwyx{background-position:-2.99rem -7.82rem;width:2.99rem;height:.72rem}
+.btn-togame{background-position:-7.28rem -2.11rem;width:1.68rem;height:.64rem}
+.dia-close{background-position:-7.28rem -3.4rem;width:.35rem;height:.36rem}
+.dialog{background-position:.02rem .02rem;width:7.29rem;height:3.71rem}
+.dot{background-position:-8.97rem -1.46rem;width:.08rem;height:.13rem}
+.guest-title{background-position:.02rem -7.19rem;width:3.59rem;height:.62rem}
+.host-title{background-position:.02rem -6.56rem;width:5.49rem;height:.62rem}
+.key-box{background-position:-7.28rem .02rem;width:1.96rem;height:1.47rem}
+.dialog .item select,.select-bg{background-position:-3.58rem -7.19rem;width:2.25rem;height:.32rem}
+.slogan{background-position:.02rem -3.7rem;width:6.41rem;height:2.85rem}
+/*! reset */
+body,dd,dl,form,h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0}
+body,button,input,select,textarea{font-size:.24rem;line-height:1.5}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+b,em{font-style:normal}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+img{vertical-align:middle;border:0;padding:0;margin:0}
+button,input,select,textarea{font-size:100%;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+ol,td,th,ul{padding:0}
+dl,ol,ul{list-style:none}
+html{font-size:100px}
+*{padding:0;margin:0}
+.gray{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:grayscale(100%);filter:gray;pointer-events:none}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.g-wrap{background:url(//game.gtimg.cn/images/yxzj/act/6531/a20210826skinzbj/bg1.jpg) top center no-repeat;background-size:100% auto;padding-top:6.5rem;padding-bottom:.3rem;min-height:100vh;background-color:#8d422f;box-sizing:border-box}
+.g-wrap a{-webkit-tap-highlight-color:transparent}
+.g-wrap .slogan{position:absolute;left:50%;top:3.5rem;transform:translateX(-50%)}
+.g-wrap .login{font-size:.18rem;color:#f6dfb7;text-align:center;position:absolute;width:100%;top:6.5rem}
+.g-wrap .login a{color:#f6dfb7}
+.g-wrap .keytip{font-size:.18rem;color:#f6dfb7;text-align:center;margin-top:.35rem}
+.g-wrap .hide{display:none!important}
+.g-wrap .guest-title,.g-wrap .host-title{margin:.99rem auto 0;line-height:.62rem;font-size:.25rem;color:#ffefd1;text-align:center}
+.g-wrap .tips{font-size:.24rem;color:#ffe8bb;text-align:center;margin-top:.21rem}
+.g-wrap .tips .dot{display:inline-block;vertical-align:middle;margin:0 .11rem}
+.g-wrap .tips2{text-align:center;font-size:.2rem;color:#eca592}
+.g-wrap .key{text-align:center;position:relative;margin-top:.19rem}
+.g-wrap .key img{width:5.38rem}
+.g-wrap .key .tag{position:absolute;color:#af4c31;background-color:#eb9b85;font-size:.22rem;width:.25rem;border-radius:.2rem 0 .2rem 0;line-height:1.2;text-align:center;padding:.2rem .1rem;top:50%;right:2.2rem;transform:translateY(-50%);word-break:break-word}
+.g-wrap .key .tag::before{position:absolute;display:block;content:'';width:80%;height:94%;border-radius:.2rem 0 .2rem 0;border:.01rem solid #f6c1b3;top:.03rem;left:.04rem}
+.g-wrap .key .skinboxkey{height:.46rem;line-height:.46rem;padding:0 .2rem;top:.8rem;left:50%;transform:translateX(-50%);word-break:normal;width:-webkit-max-content;width:-moz-max-content;width:max-content}
+.g-wrap .key .skinboxkey::before{position:absolute;display:block;content:'';width:92%;height:80%;border-radius:.2rem 0 .2rem 0;border:.01rem solid #f6c1b3;top:.03rem;left:.05rem}
+.g-wrap .btn{text-align:center;margin-top:-.85rem;position:relative}
+.g-wrap .btn a{display:inline-block;margin:0 .16rem}
+.dialog{display:none;border:none;outline:0;padding-left:.84rem;padding-right:.63rem;box-sizing:border-box;padding-top:.45rem}
+.dialog .dia-close{position:absolute;display:block;right:.8rem;top:.15rem}
+.dialog .title{font-size:.24rem;text-align:center;color:#5b4734;line-height:.36rem}
+.dialog .tips{color:#5b4734;text-align:center;font-size:.2rem}
+.dialog .item{text-align:center;font-size:.28rem;color:#5b4734;text-align:center;margin-bottom:.25rem}
+.dialog .item span{display:inline-block;vertical-align:middle;line-height:1}
+.dialog .item select{appearance:none;-webkit-appearance:none;line-height:.32rem;border:none;background-color:transparent;font-size:.2rem;padding-left:.1rem;box-sizing:border-box;vertical-align:middle}
+.dialog .btn{text-align:center}
+.dialog .btn a{display:inline-block;vertical-align:middle;margin:0 .05rem}
+.bindtip{padding-top:.72rem}
+.bindtip .tips{margin-top:.1rem;margin-bottom:.36rem}
+.getreward{padding-top:.15rem}
+.getreward .key-box{position:relative;margin:0 auto}
+.getreward .key-box img{width:.64rem;position:absolute;top:50%;left:50%;transform:translate(-50%,-65%)}
+.getreward .key-box p{color:#5b4734;font-size:.2rem;width:100%;position:absolute;bottom:.1rem;left:0;text-align:center}
+.getreward .tips{margin-top:.1rem;margin-bottom:.05rem}
+.fail{padding-top:1.22rem}
+.fail .title{margin-bottom:.69rem}
